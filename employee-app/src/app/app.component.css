@@ -1,0 +1,13 @@
+.main {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  min-height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: gradientShift 12s ease infinite;
+  background-size: 400% 400%;
+}
+.head,.success-msg{
+  text-align: center;
+}
